@@ -1,0 +1,398 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_img{
+    height: 30px;
+    margin: 0px 10px;
+
+}
+
+
+li{
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+    color: darkgray;
+}
+
+.first{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: brown;
+    font-size: 40px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+span{
+    color: darkcyan;
+}
+
+.first_img{
+    width: 63%;
+    height: 500px;
+    margin: 0 0 0 auto;
+    display: block;
+}
+
+.commit{
+    width: 100%;
+}
+
+.commit_p{
+    position: absolute;
+    color: brown;
+    left: 200px;
+    bottom: 200px;
+    font-size: 19px;
+}
+
+.commit_second_p{
+    position: absolute;
+    color: darkgray;
+    left: 200px;
+    bottom: 170px;
+    font-size: 13px;
+}
+
+.news_tag{
+    font-family: 'Shantell Sans', cursive;
+    color: indianred;
+}
+
+.news{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.news_tag{
+    margin-top: 50px;
+}
+
+.news_h2{
+    display: block;
+}
+
+.news_list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.news_list_link{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.news_time{
+    color: darkgray;
+}
+
+.news_span{
+    display: inline-block;
+    width: 90px;
+    margin: 5px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.news_contents{
+    color: darkgray;
+}
+
+.about{
+    font-family: 'Shantell Sans', cursive;
+    color: indianred;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about_h2{
+    color: darkgray;
+    text-align: center;
+}
+
+.about_comments{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 auto;
+}
+
+.about_comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_comment1{
+    color: darkgray;
+    display: inline-block;
+}
+
+.about_comment2{
+    color: darkgray;
+    display: inline-block;
+}
+
+.about_img{
+    width: 400px;
+    height: 300px;
+}
+
+.services{
+    margin: 0px 70px 50px 70px;
+}
+
+.service{
+    font-family: 'Shantell Sans', cursive;
+    color: indianred;
+    margin-top: 100px;
+}
+
+.service_menu{
+    color: darkgray;
+}
+
+.service_images{
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkmagenta;
+}
+
+.service_contents{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.service_image2_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.service_img1{
+    width: 150px;
+    display: block;
+    padding-top: 30px;
+    margin: 0px auto;
+}
+
+.service_comment{
+    margin: 0px 50px;
+    color: white;
+}
+
+.service_image2{
+    display: flex;
+
+}
+
+.service_img2 {
+    width: 150px;
+    margin: 10px;
+}
+
+.service_image3 {
+    display: flex;
+}
+
+.service_img3 {
+    width: 150px;
+    margin: 10px;
+}
+
+.service_contents_2_3{
+    display: inline;
+    margin-top: 50px;
+    color: white;
+}
+
+.service_text1{
+    display: flex;
+    flex-direction: column;
+}
+
+.service_comment_2_3{
+    color: white;
+}
+
+.blogs{
+    margin: 100px 70px 0px 70px;
+}
+
+.blog{
+    font-family: 'Shantell Sans', cursive;
+    color: indianred;
+}
+
+.blog_menu{
+    color: darkgray;
+}
+
+.blog_image_1_3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_images{
+    width: 30%;
+}
+
+.blog_span {
+    display: inline-block;
+    color: white;
+    background-color: darkmagenta;
+    position: relative;
+    top: 24px;
+        border-radius: 14px 0px 0px 0px;
+}
+
+.blog_image{
+    width: 100%;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.blog_footer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.blog_time{
+    display: inline-block;
+}
+
+.blog_coachtech{
+    display: inline-block;
+}
+
+.blog_a{
+    width: 180px;
+    padding: 10px 0;
+    color: brown;
+    border-radius: 30px;
+    text-align: center;
+    margin: 80px auto 0;
+    display: block;
+    border: solid 1px brown;
+    text-decoration: none;
+}
+
+.company{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.company_log{
+    font-family: 'Shantell Sans', cursive;
+    color: indianred;
+    margin-top: 100px;
+}
+
+.company_s{
+    color: darkgray;
+}
+
+.company_table{
+    border-collapse: collapse
+}
+
+.company_tag{
+    text-align: left;
+    padding: 15px 200px 15px 10px;
+    color: darkslategray;
+    background-color: darkgray;
+    border: solid 1px black;
+}
+
+.company_comment{
+    text-align: left;
+    color: darkgray;
+    padding: 15px 300px 15px 10px;
+    border: solid 1px black;
+}
+
+.company_image{
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.company_img1{
+    width: 50%;
+}
+
+.company_coment1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.company_img2{
+    width: 50%;
+    position: relative;
+}
+
+.company_coment2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-75%, -75%);
+    font-size: 25px;
+}
+
+.company_inquiry{
+    color: darkgray;
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.company_inquiry_a{
+    width: 250px;
+    font-size: 16px;
+        padding: 20px 0;
+        color: #fff;
+        border-radius: 30px;
+        background: rebeccapurple;
+        text-align: center;
+        box-shadow: 0 5px 0 rgba(120, 0, 48, 0.489);
+        margin: 100px auto 0;
+        display: block;
+        text-decoration: none;
+        position: relative;
+}
+
+.company_inquiry_a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+footer{
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+}
