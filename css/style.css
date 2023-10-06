@@ -409,8 +409,16 @@ span {
 
 .company_inquiry {
     color: darkgray;
-    margin: 80px 0px;
+    margin: 50px 0px;
     text-align: center;
+}
+
+.border{
+    border: solid 1px purple;
+    text-align: center;
+    width: 50px;
+    margin: 0px auto;
+    transform: rotate(90deg);
 }
 
 .company_inquiry_a {
@@ -422,10 +430,10 @@ span {
     background: rebeccapurple;
     text-align: center;
     box-shadow: 0 5px 0 rgba(120, 0, 48, 0.489);
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     display: block;
-
     position: relative;
+    text-decoration: none;
 }
 
 .company_inquiry_a::before {
